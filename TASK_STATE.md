@@ -1,9 +1,9 @@
 # Task state — 2026-10-01 Asia/Shanghai
 
-First initialization completed: official repository on `main`, local Python workflow, contracts, trust rules, private templates, evidence structure and tests. Real research is kept only in ignored local paths.
+Official repository: `wanggenAi/china-partner-opportunity-engine`, branch `main`. The initial implementation and tests are complete. Real lead intelligence, contacts and outreach records stay locally under ignored paths.
 
-The initial batch has five distinct candidates: three prioritized for narrow fact-checking and two held/reserved for weak timing or risky terms. All current needs remain unconfirmed. Zero messages sent, quotes issued or payments recorded.
+Five candidates researched; two priority candidates. Outreach has started under the user's explicit instruction: one relevant first reply was published and verified, and one chat invitation was attempted with an uncertain result. No positive reply, qualified two-way conversation, quote, payment or ongoing relationship has been verified.
 
-Resume from `state/recovery.json`, then inspect `private/leads/` and `private/reports/first_batch.md` locally. Recheck freshness and platform rules before human approval of any exact reply. Confirm practical availability and delivery constraints before quoting or offline work.
+Resume from `state/recovery.json`, then `private/events.json` and `private/outreach/`. Check replies to the confirmed comment. Do not resend the uncertain invitation until its delivery is verified. Avoid unsolicited repeated follow-ups.
 
-Success is measured by verified conversations, qualified leads, positive replies, approved quotes, paid tasks, repeat customers and long-term partnerships—not source-file count.
+For an interested reply, clarify one product/supplier, destination, deadline and acceptance criteria. Offer a direct contact only when the prospect welcomes continuation and agrees to move channels. Exact contact-bearing messages, prices, purchases, offline action and specialist judgments require the corresponding human approval.
