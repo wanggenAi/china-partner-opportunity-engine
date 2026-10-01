@@ -14,7 +14,7 @@ Write fluent, coherent prose. Remove repetition and generic self-praise. Every r
 
 ## Authorization and progress
 
-Research, reversible local implementation and preparation are authorized. Ask before actual outreach, client quotes, payment, offline action or legal/regulatory judgments. An approval must cover the concrete action or exact draft; never mark a message sent because it was generated. Contacts appear only in a human-approved continuation with appropriate context and platform permission.
+Research, reversible local implementation and preparation are authorized. Explicit session instructions to begin contacting prospects authorize tailored first outreach; do not request that approval again. Check each platform rule, validate the exact message and record actual delivery evidence. Ask before actions outside that scope, client quotes, payment, offline action or legal/regulatory judgments; never mark a message sent because it was generated. Contacts appear only in a human-approved continuation with appropriate context and platform permission.
 
 Read `TASK_STATE.md` and `state/recovery.json` first. Resume the local queue; do not expose it in public recovery files. Update state after material work. Measure conversations, qualified leads, positive replies, approved quotes, paid tasks, repeat customers and long-term partners honestly.
 

@@ -6,7 +6,7 @@ A first reply should read like a person responding to a specific problem. Open w
 
 For hardware, ask about the exact model, condition, test criteria and seller terms. For a local errand, explain the practical task without a technology biography. Match the vocabulary and question to the source, not to a generic sales template.
 
-First drafts contain no personal contacts. Use the source platform first, check current rules and the author's request, and obtain approval before sending. A stated invitation is evidence of intent; it does not override platform rules. Do not send bulk replies, automate follow-ups or contact multiple channels without consent.
+First drafts contain no personal contacts. Use the source platform first, check current rules and the author's request, and use the explicit current-session authorization before sending; if outreach has not been authorized, obtain approval. Do not ask again when sending tailored first contacts has already been authorized. A stated invitation is evidence of intent; it does not override platform rules. Do not send bulk replies, automate follow-ups or contact multiple channels without consent.
 
 Offer Telegram or WeChat only after continuation is welcome, the person requests a contact, or a convenient move is agreed after initial trust. Offer one channel naturally. Resolve `${TELEGRAM_CONTACT}` or `${WECHAT_CONTACT}` only from ignored configuration for the exact human-approved draft. The CLI writes the rendered result privately and never sends it.
 
