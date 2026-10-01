@@ -1,0 +1,272 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence-led opportunity v1",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "need_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "china_dependency": {
+      "type": "string",
+      "minLength": 1
+    },
+    "why_me_for_this_lead": {
+      "type": "string",
+      "minLength": 1
+    },
+    "suggested_trust_signal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "first_small_task": {
+      "type": "string",
+      "minLength": 1
+    },
+    "freshness_assessment": {
+      "type": "string",
+      "minLength": 1
+    },
+    "first_reply": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reply_plan": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recommended_contact_channel": {
+      "type": "string",
+      "minLength": 1
+    },
+    "when_to_offer_wechat": {
+      "type": "string",
+      "minLength": 1
+    },
+    "when_to_offer_telegram": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pricing_model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "do_not_mention": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "trust_barriers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "proof_needed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "relationship_expansion_path": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "next_checks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1
+        },
+        "published_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "date_precision": {
+          "type": "string",
+          "enum": [
+            "exact",
+            "date_only",
+            "unverified"
+          ]
+        },
+        "verification_method": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "url",
+        "author",
+        "published_at",
+        "date_precision",
+        "verification_method"
+      ],
+      "additionalProperties": false
+    },
+    "founder_fit_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "relevant_founder_strengths": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "problem_solving",
+          "research",
+          "local_execution",
+          "communication",
+          "ownership",
+          "honesty"
+        ]
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "required_credentials": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "overseas_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "inferred",
+        "unknown"
+      ]
+    },
+    "current_need_status": {
+      "type": "string",
+      "enum": [
+        "confirmed_active",
+        "unconfirmed",
+        "expired",
+        "resolved"
+      ]
+    },
+    "contact_permission": {
+      "type": "string",
+      "enum": [
+        "verified_allowed",
+        "needs_rule_check",
+        "not_allowed"
+      ]
+    },
+    "disposition": {
+      "type": "string",
+      "enum": [
+        "prioritize",
+        "reserve",
+        "hold",
+        "reject"
+      ]
+    },
+    "milestone": {
+      "type": "string",
+      "enum": [
+        "DISCOVERED",
+        "QUALIFIED_LEAD",
+        "REAL_CONVERSATION",
+        "POSITIVE_REPLY",
+        "QUOTE",
+        "PAID_TASK",
+        "REPEAT_CUSTOMER",
+        "LONG_TERM_PARTNER"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "need_summary",
+    "china_dependency",
+    "why_me_for_this_lead",
+    "suggested_trust_signal",
+    "first_small_task",
+    "freshness_assessment",
+    "first_reply",
+    "reply_plan",
+    "recommended_contact_channel",
+    "when_to_offer_wechat",
+    "when_to_offer_telegram",
+    "pricing_model",
+    "do_not_mention",
+    "trust_barriers",
+    "proof_needed",
+    "relationship_expansion_path",
+    "risks",
+    "next_checks",
+    "evidence_ids",
+    "source",
+    "founder_fit_score",
+    "relevant_founder_strengths",
+    "required_credentials",
+    "overseas_status",
+    "current_need_status",
+    "contact_permission",
+    "disposition",
+    "milestone"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,7 @@
+{
+  "approved_by": "human",
+  "lead_id": "REPLACE_WITH_LEAD_ID",
+  "draft_sha256": "REPLACE_WITH_SHA256_OF_EXACT_TEMPLATE",
+  "expires_at": "2000-01-01T00:00:00Z",
+  "context": "requested_contact"
+}

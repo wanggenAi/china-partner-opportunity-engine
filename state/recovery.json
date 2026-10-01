@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "project": "China Partner Opportunity Engine",
+  "repository": "wanggenAi/china-partner-opportunity-engine",
+  "branch": "main",
+  "updated_on": "2026-10-01",
+  "timezone": "Asia/Shanghai",
+  "phase": "first_batch_prepared",
+  "local_paths": {
+    "profile": "private/founder_profile.local.json",
+    "contacts": ".env.local",
+    "evidence": "private/evidence/",
+    "leads": "private/leads/",
+    "report": "private/reports/first_batch.md",
+    "events": "private/events.json"
+  },
+  "anonymous_counts": {
+    "researched_candidates": 5,
+    "priority_candidates": 3,
+    "FIRST_REAL_CONVERSATION": 0,
+    "FIRST_QUALIFIED_LEAD": 0,
+    "FIRST_POSITIVE_REPLY": 0,
+    "FIRST_QUOTE": 0,
+    "FIRST_PAID_TASK": 0,
+    "FIRST_REPEAT_CUSTOMER": 0,
+    "FIRST_LONG_TERM_PARTNER": 0
+  },
+  "next_actions": [
+    "Recheck current need and source-platform contact rules",
+    "Review exact first reply with founder",
+    "Confirm scope, availability and delivery boundaries before quoting"
+  ],
+  "approval_required_for": [
+    "actual_outreach",
+    "client_quote",
+    "payment",
+    "offline_action",
+    "legal_or_regulatory_judgment"
+  ],
+  "privacy": "No real identities, founder biography or contact values in public recovery state."
+}

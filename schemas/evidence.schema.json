@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1
+        },
+        "published_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "date_precision": {
+          "type": "string",
+          "enum": [
+            "exact",
+            "date_only",
+            "unverified"
+          ]
+        },
+        "verification_method": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "url",
+        "author",
+        "published_at",
+        "date_precision",
+        "verification_method"
+      ],
+      "additionalProperties": false
+    },
+    "accessed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "method": {
+      "type": "string",
+      "minLength": 1
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "inferences": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "availability": {
+      "type": "string",
+      "enum": [
+        "live_checked",
+        "indexed_only",
+        "unavailable"
+      ]
+    },
+    "excerpt": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "id",
+    "source",
+    "accessed_at",
+    "method",
+    "facts",
+    "inferences",
+    "unknowns",
+    "availability",
+    "excerpt"
+  ],
+  "additionalProperties": false
+}

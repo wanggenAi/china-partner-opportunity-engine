@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "identity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "location_country": {
+      "type": "string",
+      "minLength": 1
+    },
+    "strengths": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "problem_solving",
+          "research",
+          "local_execution",
+          "communication",
+          "ownership",
+          "honesty"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "background": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "claims_source": {
+      "type": "string",
+      "enum": [
+        "founder_supplied",
+        "independently_verified"
+      ]
+    },
+    "credentials": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "limits": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "contact_variables": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "WECHAT_CONTACT",
+          "MOBILE_CONTACT",
+          "TELEGRAM_CONTACT"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "disclosure_rule": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "identity",
+    "location_country",
+    "strengths",
+    "background",
+    "claims_source",
+    "credentials",
+    "limits",
+    "contact_variables",
+    "disclosure_rule"
+  ],
+  "additionalProperties": false
+}
