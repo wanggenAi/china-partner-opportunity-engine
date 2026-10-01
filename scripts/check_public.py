@@ -7,8 +7,13 @@ import sys
 
 root = Path(__file__).resolve().parents[1]
 tracked = subprocess.check_output(["git", "ls-files"], cwd=root, text=True).splitlines()
-blocked = ("private/", ".env", "local_profile.json", "secrets/")
-bad_paths = [p for p in tracked if p == ".env" or p.startswith(blocked)]
+blocked_prefixes = ("private/", "secrets/")
+bad_paths = [
+    p for p in tracked
+    if p in {".env", ".env.local", "local_profile.json"}
+    or p.startswith(blocked_prefixes)
+    or p.endswith(".local.json")
+]
 if bad_paths:
     print("Private paths are tracked:", *bad_paths, sep="\n")
     raise SystemExit(1)
