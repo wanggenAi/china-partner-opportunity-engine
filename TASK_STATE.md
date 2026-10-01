@@ -1,10 +1,10 @@
-# Task state — 2026-10-01 Asia/Shanghai
+# Task state — 2026-10-02 Asia/Shanghai
 
 Official repository: `wanggenAi/china-partner-opportunity-engine`, branch `main`. The implementation and tests are complete. Real lead intelligence, contacts and outreach records stay locally under ignored paths.
 
 The user explicitly authorized first outreach and requested at least 200 different potential prospects rather than waiting for one reply. The curated queue contains 239 distinct public author accounts after reviewing 1,579 search results. It includes 93 original-post checks and 146 rendered-search evidence records awaiting original verification; 152 requests were posted in the last 60 days. Fourteen prospects have individually scoped trial-task notes. English posting and market references do not establish overseas identity, and public requests do not establish an active qualified customer.
 
-Eleven first public replies are published and verified, including the newly verified banking-equipment reply. One prior chat invitation still has an uncertain delivery result. The earlier HTTP 429 affected old Reddit pages; normal Reddit pages work. Exact published messages, comment permalinks, post evidence and screenshots are stored privately or in local outputs. No positive reply, qualified two-way conversation, quote, payment or ongoing relationship has been verified.
+Fifteen first public replies are published and verified, including four new replies on clothing, tufting yarn, sourcing quality and jewellery packaging. One prior chat invitation still has an uncertain delivery result. The earlier HTTP 429 affected old Reddit pages; normal Reddit pages work. Exact published messages, comment permalinks, post evidence and screenshots are stored privately or in local outputs. No positive reply, qualified two-way conversation, quote, payment or ongoing relationship has been verified.
 
 Resume from `state/recovery.json`, then `private/research_200/prospect_roster.json`, the original evidence and draft queue. Use the normal Reddit website and Computer Use when needed. Check source availability, current need, community rules and the founder's actual ability for each prospective contact. Continue other suitable prospects without waiting for one person's response. Do not resend the uncertain invitation until delivery has been checked. Avoid repeated follow-ups and template blasts.
 

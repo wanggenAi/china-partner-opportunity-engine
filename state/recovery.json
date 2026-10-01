@@ -3,7 +3,7 @@
   "project": "China Partner Opportunity Engine",
   "repository": "wanggenAi/china-partner-opportunity-engine",
   "branch": "main",
-  "updated_on": "2026-10-01",
+  "updated_on": "2026-10-02",
   "timezone": "Asia/Shanghai",
   "phase": "targeted_first_outreach_in_progress",
   "local_paths": {
@@ -28,17 +28,17 @@
     "FIRST_PAID_TASK": 0,
     "FIRST_REPEAT_CUSTOMER": 0,
     "FIRST_LONG_TERM_PARTNER": 0,
-    "verified_first_outreach_sent": 11,
+    "verified_first_outreach_sent": 15,
     "unconfirmed_send_attempts": 1,
     "raw_search_posts_collected": 1579,
     "current_roster_original_posts_checked": 93,
     "current_roster_search_evidence_pending_original": 146,
     "current_roster_last_60_days": 152,
-    "new_first_outreach_sent_this_batch": 5
+  "new_first_outreach_sent_this_batch": 9
   },
   "next_actions": [
     "Continue individual first contacts across the curated queue after reviewing original need, community rules and task fit",
-    "Retry premium womenswear only after binding a stable browser tab; do not count failed attempts",
+    "Continue the next unmatched prospects; do not count failed attempts",
     "Check actual responses while continuing other suitable prospects",
     "Qualify interested replies before quoting; confirm scope, destination, deadline and acceptance criteria"
   ],
@@ -59,5 +59,5 @@
     "Candidates are public accounts, not confirmed customers or 200 independently verified overseas natural persons",
     "Historical posts require an active-need check; English posting or destination market does not prove author nationality"
   ],
-  "access_status": "Normal www.reddit.com works; the banking-equipment reply was published and verified after browser reconnection. An additional clothing-supplier attempt was not counted because the editor did not open. The earlier 429 was limited to old.reddit.com."
+  "access_status": "Normal www.reddit.com works; four additional replies were published and verified on 2026-10-02. The earlier 429 was limited to old.reddit.com."
 }
