@@ -89,7 +89,7 @@ def render_contact_message(template: str, approval: dict, env: dict,
     return Template(template).substitute({keys[0]: value})
 
 
-def read_env(path: str | Path) -> dict:
+def read_env(path: Union[str, Path]) -> dict:
     """Read literal values only: never execute shell code from a local file."""
     values = {}
     for line in Path(path).read_text(encoding="utf-8").splitlines():
