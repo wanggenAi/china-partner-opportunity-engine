@@ -1,5 +1,11 @@
 # Working instructions
 
+## Current business priority (2026-10-26)
+
+This repository is the **single active source of execution** for the user's overseas-buyer business. **Reddit-first**: find original buyer requests, verify their current need and allowed contact path, prepare individually useful replies, then help advance real conversations to paid work and repeat relationships. Other opportunity repos are reference-only. Do not start another repo, migrate data indiscriminately, or build multiple pipelines/CRMs.
+
+Implement GitHub issue #1 as small testable increments with the existing Python CLI and **one private** daily action queue. Prioritize measurable contacted → replied → qualified → quoted → paid → delivered events, not bulk volume or engineering output. If source access fails (e.g. Reddit 403), report it and fall back to manual evidence intake, never bypass access controls or treat old data as fresh. Follow the privacy, channel approval and human verification rules below. Never assert that outbound messages, quotes or payments happened without genuine external evidence.
+
 Use this repository only: `wanggenAi/china-partner-opportunity-engine`, default branch `main`. Keep the official name China Partner Opportunity Engine.
 
 ## Privacy
